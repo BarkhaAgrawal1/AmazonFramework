@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/deepa/Documents/Barkha new intellij/VinayAmazonByBarkha">
+        <classes>
+            <class name="PagetestPackage.FirstPageTest">
+                <methods>
+                    <include name="firstpage"/>
+                </methods>
+            </class>
+            <class name="PagetestPackage.HomePageTest">
+                <methods><include name="setsigntest"/>
+                </methods>
+            </class>
+            <class name="PagetestPackage.LandingPageTest">
+                <methods>
+                    <include name="searchboxtest"/>
+                </methods>
+            </class>
+            <class name="PagetestPackage.LoginPageTest">
+                <methods><include name="enterdetails"/>
+                </methods>
+            </class>
+            <class name="PagetestPackage.PaymentPageTest">
+                <methods>
+                    <include name="cartcheck"/>
+                </methods>
+            </class>
+            <class name="PagetestPackage.SearchPagetest">
+                <methods>
+                    <include name="checkouttest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
